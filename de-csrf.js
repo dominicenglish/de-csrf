@@ -11,7 +11,7 @@
  * Module dependencies.
  */
 
-var utils = require('../utils');
+var utils = require('connect/lib/utils');
 var uid = require('uid2');
 var crypto = require('crypto');
 

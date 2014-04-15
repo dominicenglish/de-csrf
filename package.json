@@ -1,11 +1,15 @@
 {
-  "name": "de-csrf",
-  "version": "0.0.0",
-  "description": "CSRF middleware for express. Based on connect-csrf but limited to per-session token generation instead of per-request generation",
-  "main": "index.js",
-  "scripts": {
+    "name": "de-csrf",
+    "version": "0.0.0",
+    "description": "CSRF middleware for express. Based on connect-csrf but limited to per-session token generation instead of per-request generation",
+    "main": "index.js",
+    "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Dominic English",
-  "license": "MIT"
+    },
+    "author": "Dominic English",
+    "license": "MIT",
+    "dependencies": {
+        "connect": "2.12.0",
+        "uid2": "0.0.3"
+    }
 }
